@@ -111,3 +111,15 @@ body {
   cursor: pointer;
   transition: all ease-in-out 300ms;
 }
+
+.loader {
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    z-index: 999;
+    padding: 23%;
+   
+}
+.loader-disabled {
+        display: none;
+}

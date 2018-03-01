@@ -27,3 +27,15 @@ export function saveSearchResults(data){
     }
 }
 
+export function startLoading(){
+    return {
+        type: ActionTypes.START_LOADING,
+    };
+}
+
+export function stopLoading(){
+    return {
+        type: ActionTypes.STOP_LOADING,
+    };
+}
+
